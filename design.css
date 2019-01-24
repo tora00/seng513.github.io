@@ -1,7 +1,23 @@
-#WAR_OV{
-	width:500px;
-	transition:all 0.5s linear;
-	display: none;
+.overview{
+	/*width:100%;*/
+	/*height:100%;*/
+	transition: all 0.25s;
+	/*display: none;*/
+	opacity:0;
+	height:0;
+	padding: 0 8px;
+	overflow: hidden;
+	
 }
-
-input[type=checkbox]:checked + #WAR_OV{display: block;}
+input[type=checkbox]{
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+input[type=checkbox]:checked ~ .overview{
+	/*display: block;*/
+	opacity: 1;
+	height:100%;
+	width:100%;
+	padding:8px;
+}
