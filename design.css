@@ -21,3 +21,11 @@ input[type=checkbox]:checked ~ .overview{
 	width:100%;
 	padding:8px;
 }
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	margin: 10px 0 10px 0;
+}
