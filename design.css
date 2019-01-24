@@ -1,0 +1,7 @@
+#WAR_OV{
+	width:500px;
+	transition:all 0.5s linear;
+	display: none;
+}
+
+input[type=checkbox]:checked + #WAR_OV{display: block;}
