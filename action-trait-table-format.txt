@@ -1,0 +1,32 @@
+			<div class="action-trait-table">
+				<div class="at-header">
+					Actions & Traits
+				</div>
+				<div class="job-header">
+					Job Actions
+				</div>
+				<div class="actions-table">
+					<table>
+						<tr>
+							<th>Action Name</th>
+							<th>Acquired</th>
+							<th>Type</th>
+							<th>Cast</th>
+							<th>Recast</th>
+							<th>Cost</th>
+							<th>Range</th>
+							<th>Effect</th>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+			</div>
