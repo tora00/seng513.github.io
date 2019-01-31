@@ -211,4 +211,74 @@ a:link, a:visited, a:hover, a:active{
 	background: rgba(39, 35, 118, 0.5);
 }
 
+.sticky-top{
+	position:fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.dropbutton{
+	background-color: red;
+	height: 50px;
+	width:  20vw;
+}
+
+.body-detach-top{
+	margin-top: 60px
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown_content a{
+	display:block;
+}
+
+.dropdown:hover .dropdown_content{
+	display:block;
+}
+
+.dropdown_content{
+	display:none;
+	position:absolute;
+	z-index: 1;
+}
+
+#top-mid, .action-trait-table{
+	display: flex;
+	flex-direction: column;
+}
+
+.at-header{
+	height: 30px;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+textarea{
+	resize: none;
+	height: 125px;
+	text-align: left;
+}
+
+#tank-job-action{
+	color: #272376;
+}
+
+#healer-job-action{
+	color: #006a00;
+}
+
+#dps-job-action{
+	color: #610805;
+}
+
+.job-header{
+	font-weight: bold;
+}
+
 
