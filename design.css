@@ -10,6 +10,32 @@
 	
 }
 
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+textarea{
+	resize: none;
+	height: 160px;
+	text-align: left;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 1.5;
+	width: 460px;
+	color:white;
+	background: transparent;
+	text-shadow: 1px 1px 2px #000000
+}
+
+
+img{
+	max-width:100%;
+	max-height:100%;
+	vertical-align:middle;
+	
+}
+
 label, .job_header:hover{
 	cursor:pointer;
 }
@@ -56,6 +82,7 @@ p{
 
 #dbanner, .parent_content, .container_dps{
 	width:800px;
+	background-color:#610805;
 }
 
 .container{
@@ -89,12 +116,7 @@ p{
 	border-bottom: 1px solid #cccccc;
 }
 
-img{
-	max-width:100%;
-	max-height:100%;
-	vertical-align:middle;
-	
-}
+
 
 .banner, .dps_subbanner{
 	height:30px;
@@ -110,6 +132,8 @@ body{
 .banner{
 	font-weight:bold;
 	color:white;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .dps_subbanner{
@@ -128,7 +152,7 @@ a:link, a:visited, a:hover, a:active{
 #hbanner{
 	background-color:#006a00;
 }
-#dbanner{
+#dpbanner{
 	background-color:#610805;
 }
 
@@ -153,12 +177,14 @@ a:link, a:visited, a:hover, a:active{
 
 #top{
 	width: 100%;
+	max-height: 395px;
 	align-self:center;
 	text-align:center;
 }
 
 #middle{
-	width:70%;
+	width:100%;
+	max-width: 900px;
 	display:flex;
 	justify-content:center;
 	flex-direction:column;
@@ -211,22 +237,49 @@ a:link, a:visited, a:hover, a:active{
 	background: rgba(39, 35, 118, 0.5);
 }
 
+/* Drop-down menu styling*/
 .sticky-top{
 	position:fixed;
 	top: 0;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	justify-content:center;
+}
+
+.dropbutton, .dropdown_content a{
+	color: #476ba5;
 }
 
 .dropbutton{
-	background-color: red;
+	background-color: #ededed;
 	height: 50px;
-	width:  20vw;
+	width:  190px;
+	font-weight: 550;
+	font-size: 16px;
+	font-family: Arial;
+	border: 1px solid #bababa;
+	cursor:pointer;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.dropbutton:hover{
+	background-color: #f7f7f7;
+}
+
+.dropdown_content a{
+	font-size: 12px;
+	background-color: #ededed;
+	width: 180px;
+	padding-top:7px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	text-align:left;
 }
 
 .body-detach-top{
-	margin-top: 60px
+	margin-top: 50px;
 }
 
 .dropdown{
@@ -247,10 +300,116 @@ a:link, a:visited, a:hover, a:active{
 	position:absolute;
 	z-index: 1;
 }
+/*end drop down menu styling*/
 
-#top-mid, .action-trait-table{
+#top-link{
+	padding-bottom: 5px;
+	padding-top: 10px;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+#top-link a{
+	color:white;
+}
+
+.top-mid, .action-trait-table{
 	display: flex;
 	flex-direction: column;
+}
+
+.action-trait-table{
+	padding-top: 20px;
+}
+
+.top-mid{
+	width: 100vw;
+	height: 390px;
+}
+
+#top-link, #class-page-icon, #class-page-banner, #class-lore-text{
+	margin-left: 460px;
+}
+
+#paladin-header-background{
+	background-image:url('./paladin-header.jpg');
+}
+
+#warrior-header-background{
+	background-image:url('./warrior-header.jpg');
+}
+
+#dark-knight-header-background{
+	background-image:url('./dark-knight-header.jpg');
+}
+
+#monk-header-background{
+	background-image:url('./monk-header.jpg');
+}
+
+#dragoon-header-background{
+	background-image:url('./dragoon-header.jpg');
+}
+
+#ninja-header-background{
+	background-image:url('./ninja-header.jpg');
+}
+
+#samurai-header-background{
+	background-image:url('./samurai-header.jpg');
+}
+
+#bard-header-background{
+	background-image:url('./bard-header.jpg');
+}
+
+#machinist-header-background{
+	background-image:url('./machinist-header.jpg');
+}
+
+#summoner-header-background{
+	background-image:url('./summoner-header.jpg');
+}
+
+#red-mage-header-background{
+	background-image:url('./red-mage-header.jpg');
+}
+
+#black-mage-header-background{
+	background-image:url('./black-mage-header.jpg');
+}
+
+#white-mage-header-background{
+	background-image:url('./white-mage-header.jpg');
+}
+
+#scholar-header-background{
+	background-image:url('./scholar-header.jpg');
+}
+
+#astrologian-header-background{
+	background-image:url('./astrologian-header.jpg');
+}
+
+.main-header-banner{
+	background-image:url('./main-page-header.jpg');
+	margin: 0;
+	height:395px;
+	position:relative;
+}
+
+#main-header-text{
+	background-color:#610805;
+	color:white;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:100%;
+	position:absolute;
+	bottom: 0;
+}
+
+.job-background{
+	background-position: center center;
 }
 
 .at-header{
@@ -259,11 +418,7 @@ a:link, a:visited, a:hover, a:active{
 	padding-left: 10px;
 }
 
-textarea{
-	resize: none;
-	height: 125px;
-	text-align: left;
-}
+
 
 #tank-job-action{
 	color: #272376;
@@ -279,6 +434,84 @@ textarea{
 
 .job-header{
 	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Table design */
+.tank-table-header{
+	background-color: #5e5b96;
+	white-space: nowrap;
+	height: 40px;
+}
+
+.dps-table-header{
+	background-color: #773937;
+	white-space: nowrap;
+	height: 40px;
+}
+
+.healer-table-header{
+	background-color: #597f59;
+	white-space: nowrap;
+	height: 40px;
+}
+
+#action-name-header{
+	width: 200px;
+}
+
+#acquired-header{
+	width: 90px;
+}
+
+#type-header{
+	width: 90px;
+}
+
+#cast-header{
+	width: 90px;
+}
+
+#recast-header{
+	width: 90px;
+}
+
+#cost-header{
+	width: 90px;
+}
+
+#range-header{
+	width: 90px;
+}
+
+#effect-header{
+	width: 400px;
+}
+
+table{
+	font-family: Arial;
+	border-collapse: collapse;
+}
+
+th{
+	color:white;
+	font-size: 14px;
+	font-weight: 200;
+	border-radius: 5px;
+}
+
+td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 13px;
+	font-weight: 200;
+	border-bottom: 1pt solid #a5a5a5;
+}
+
+
+td:nth-child(1){
+	font-weight: 600;
 }
 
 

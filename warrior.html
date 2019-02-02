@@ -53,20 +53,20 @@
 		<div id="left" class="super">
 		</div>
 		<div id="middle" class="super body-detach-top">
-			<div id="paladin-header-background" class="top-mid job-background">
+			<div id="warrior-header-background" class="top-mid job-background">
 				<div id="top-link">
 					<a href="./job.html" id="back-link"><img src="backbutton.png" alt="back button">&nbsp;Top</a>
 				</div>
 				<div id="class-page-icon">
-					<img src="pld_title.png" alt="paladin-icon">
+					<img src="war_title.png" alt="warrior-icon">
 				</div>
 				<div id="class-page-banner" class="banner">
 					<img src="tank.png" alt="tank-icon"> &nbsp; Tank
 				</div>
 				<div id="class-lore-text">
 				<textarea readonly>
-For centuries, the elite of the Sultansworn have served as personal bodyguards to the royal family of Ul'dah. Known as paladins, these men and women marry exquisite swordplay with stalwart shieldwork to create a style of combat uncompromising in its defense. Clad in brilliant silver armor, they charge fearlessly into battle, ever ready to lay down their lives for their liege.
-To be a paladin is to protect, and those who choose to walk this path will become the iron foundation upon which the party's defense is built.</textarea>
+On the northernmost edge of Abalathia's Spine exists a mountain tribe renowned for producing fearsome mercenaries. Wielding greataxes and known as warriors, these men and women learn to harness their inner-beasts and translate that power to unbridled savagery on the battlefield.
+In former times which saw war waged ceaselessly in Eorzea, the warriors featured prominently on the frontlines of battle. With the arrival of peacetime, however, their art has descended into the shadows of obscurity, where it remains to this day.</textarea>
 				</div>
 			</div>
 			<div class="action-trait-table">
@@ -89,7 +89,7 @@ To be a paladin is to protect, and those who choose to walk this path will becom
 							<th class="tank-table-header" id="effect-header">Effect</th>
 						</tr>
 						<tr>
-							<td>Fast Blade</td>
+							<td>Heavy Swing</td>
 							<td>Lv. 1</td>
 							<td>Weaponskill</td>
 							<td>Instant</td>
@@ -99,105 +99,136 @@ To be a paladin is to protect, and those who choose to walk this path will becom
 							<td>Delivers an attack with a potency of 160.</td>
 						</tr>
 						<tr>
-							<td>Fight or Flight</td>
-							<td>Lv. 2</td>
+							<td>Skull Sunder</td>
+							<td>Lv. 4</td>
 							<td>Ability</td>
 							<td>Instant</td>
 							<td>60s</td>
 							<td>-</td>
 							<td>0y</td>
-							<td>Increases physical damage dealt by 25%.<br>Duration: 25s</td>
+							<td>Delivers an attack with a potency of 100.<br>
+Additional Effect: Increased enmity<br>
+Combo Action: Heavy Swing<br>
+Combo Potency: 210<br>
+Defiance/Deliverance Combo Bonus: Increases Beast Gauge by 10</td>
 						</tr>
 						<tr>
-							<td>Savage Blade</td>
-							<td>Lv. 4</td>
+							<td>Berserk</td>
+							<td>Lv. 6</td>
 							<td>Weaponskill</td>
 							<td>Instant</td>
 							<td>2.5s</td>
 							<td>60 TP</td>
 							<td>3y</td>
-							<td>Delivers an attack with a potency of 100.<br>Additional Effect: Increased enmity<br>Combo Action: Fast Blade<br>Combo Potency: 210</td>
+							<td>Guarantees that all attacks are critical and direct hits.<br>
+Duration: 10s</td>
 						</tr>
 						<tr>
-							<td>Flash</td>
-							<td>Lv. 6</td>
+							<td>Overpower</td>
+							<td>Lv. 10</td>
 							<td>Spell</td>
 							<td>Instant</td>
 							<td>2.5s</td>
 							<td>480 MP</td>
 							<td>5y</td>
-							<td>Increases enmity in all nearby enemies.<br>Additional Effect: Blind<br>Duration: 12s</td>
+							<td>Delivers an attack with a potency of 130 to all enemies in a cone before you.<br>
+Additional Effect: Increased enmity</td>
 						</tr>
 						<tr>
-							<td>Riot Blade</td>
-							<td>Lv. 10</td>
+							<td>Tomahawk</td>
+							<td>Lv. 15</td>
 							<td>Weaponskill</td>
 							<td>Instant</td>
 							<td>2.5s</td>
 							<td>60 TP</td>
 							<td>3y</td>
-							<td>Delivers an attack with a potency of 100.<br>Combo Action: Fast Blade<br>Combo Potency: 240<br>Combo Bonus: Restores MP</td>
+							<td>Delivers a ranged attack with a potency of 140.<br>
+Additional Effect: Increased enmity</td>
 						</tr>
 						<tr>
-							<td>Shield Lob</td>
-							<td>Lv. 15</td>
-							<td>Weaponskill</td>
-							<td>Instant</td>
-							<td>2.5s</td>
-							<td>120 TP</td>
-							<td>15y</td>
-							<td>Delivers a ranged attack with a potency of 120.<br>Additional Effect: Increased enmity</td>
-						</tr>
-						<tr>
-							<td>Shield Bash</td>
+							<td>Maim</td>
 							<td>Lv. 18</td>
 							<td>Weaponskill</td>
 							<td>Instant</td>
 							<td>2.5s</td>
 							<td>120 TP</td>
-							<td>3y</td>
-							<td>Delivers an attack with a potency of 110.<br>Additional Effect: Stun
-Duration: 6s</td>
+							<td>15y</td>
+							<td>Delivers an attack with a potency of 100.<br>
+Combo Action: Heavy Swing<br>
+Combo Potency: 200<br>
+Combo Bonus: Reduces target's slashing resistance by 10%<br>
+Duration: 24s<br>
+Defiance/Deliverance Combo Bonus: Increases Beast Gauge by 10</td>
 						</tr>
 						<tr>
-							<td>Rage of Halone</td>
+							<td>Thrill of Battle</td>
 							<td>Lv. 26</td>
+							<td>Weaponskill</td>
+							<td>Instant</td>
+							<td>2.5s</td>
+							<td>120 TP</td>
+							<td>3y</td>
+							<td>Increases maximum HP by 20% and restores the amount increased.<br>
+Duration: 20s</td>
+						</tr>
+						<tr>
+							<td>Butcher's Block</td>
+							<td>Lv. 30</td>
 							<td>Weaponskill</td>
 							<td>Instant</td>
 							<td>2.5s</td>
 							<td>60 TP</td>
 							<td>3y</td>
-							<td>Delivers an attack with a potency of 100.<br>Additional Effect: Increased enmity<br>Combo Action: Savage Blade<br>Combo Potency: 270</td>
+							<td>Delivers an attack with a potency of 100.<br>
+Additional Effect: Increased enmity<br>
+Combo Action: Skull Sunder<br>
+Combo Potency: 300<br>
+Defiance/Deliverance Combo Bonus: Increases Beast Gauge by 10</td>
 						</tr>
 						<tr>
-							<td>Shield Swipe</td>
+							<td>Defiance</td>
 							<td>Lv. 30</td>
 							<td>Ability</td>
 							<td>Instant</td>
 							<td>15s</td>
 							<td>-</td>
 							<td>3y</td>
-							<td>Delivers an attack with a potency of 100.<br>Can only be executed immediately after blocking an attack.<br>Additional Effect: Pacification<br>Duration: 6s<br>Additional Effect: Increased enmity</td>
+							<td>Increases maximum HP by 25%, while reducing damage dealt by 20% and increasing enmity generation. Increases own HP recovery via healing magic by 20%.<br>
+Effect ends upon reuse.<br><br>
+Using certain actions while under the effect of Defiance will increase your Beast Gauge, increasing parry rate to a maximum of 10%. The Beast Gauge returns to 0 when Defiance ends.<br>
+Cannot be used with Deliverance.<br>
+Shares a recast timer with Deliverance.</td>
 						</tr>
 						<tr>
-							<td>Shield Oath</td>
-							<td>Lv. 30</td>
-							<td>Spell</td>
-							<td>Instant</td>
-							<td>2.5s</td>
-							<td>600 MP</td>
-							<td>0y</td>
-							<td>Reduces damage taken by 20%, while reducing damage dealt by 15% and increasing enmity generation.<br>Cannot be used with Sword Oath.<br>Effect ends upon reuse.</td>
-						</tr>
-						<tr>
-							<td>Sword Oath</td>
+							<td>Inner Beast</td>
 							<td>Lv. 35</td>
 							<td>Spell</td>
 							<td>Instant</td>
 							<td>2.5s</td>
 							<td>600 MP</td>
 							<td>0y</td>
-							<td>Deals additional damage with a potency of 75 after each auto-attack.<br>Damage affected by weapon delay.<br>Cannot be used with Shield Oath.<br>Effect ends upon reuse.</td>
+							<td>Delivers an attack with a potency of 350.<br>
+Ignores the damage penalty inflicted by Defiance.<br>
+Can only be executed while under the effect of Defiance.<br>
+Additional Effect: Absorbs a portion of damage dealt as HP<br>
+Additional Effect: Reduces damage taken by 20%<br>
+Duration: 6s<br>
+Beast Gauge Cost: 50<br>
+※Action changes to Fell Cleave while under the effect of Deliverance.</td>
+						</tr>
+						<tr>
+							<td>Storm's Path</td>
+							<td>Lv. 38</td>
+							<td>Spell</td>
+							<td>Instant</td>
+							<td>2.5s</td>
+							<td>600 MP</td>
+							<td>0y</td>
+							<td>Delivers an attack with a potency of 100.<br>
+Combo Action: Maim<br>
+Combo Potency: 280<br>
+Combo Bonus: Absorbs a portion of damage dealt as HP<br>
+Defiance/Deliverance Combo Bonus: Increases Beast Gauge by 20</td>
 						</tr>
 					</table>
 				</div>

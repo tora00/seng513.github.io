@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Final Fantasy XIV Job Guide: Paladin
+		</title>
+		<link rel="stylesheet" href="design.css">
+	</head>
+	<body>
+	<div id="main">
+		<div id="top" class="super sticky-top">
+			<div class="dropdown">
+			<button class="dropbutton">Tank</button>
+				<div class="dropdown_content">
+					<a href="./paladin.html">Paladin</a>
+					<a href="./warrior.html">Warrior</a>
+					<a href="./darkknight.html">Dark Knight</a>
+				</div>
+			</div>
+			<div class="dropdown">
+			<button class="dropbutton">Healer</button>			
+				<div class="dropdown_content">
+					<a href="./whitemage.html">White Mage</a>
+					<a href="./scholar.html">Scholar</a>
+					<a href="./astrologian.html">Astrologian</a>
+				</div>
+			</div>
+			<div class="dropdown">
+			<button class="dropbutton">Melee DPS</button>			
+				<div class="dropdown_content">
+					<a href="./monk.html">Monk</a>
+					<a href="./dragoon.html">Dragoon</a>
+					<a href="./ninja.html">Ninja</a>
+					<a href="./samurai.html">Samurai</a>
+				</div>
+			</div>
+			<div class="dropdown">
+			<button class="dropbutton">Physical Ranged DPS</button>			
+				<div class="dropdown_content">
+					<a href="./bard.html">Bard</a>
+					<a href="./machinist.html">Machinist</a>
+				</div>
+			</div>
+			<div class="dropdown">
+			<button class="dropbutton">Magic Ranged DPS</button>
+				<div class="dropdown_content">
+					<a href="./blackmage.html">Black Mage</a>
+					<a href="./summoner.html">Summoner</a>
+					<a href="./redmage.html">Red Mage</a>
+				</div>
+			</div>
+		</div>
+		<div id="left" class="super">
+		</div>
+		<div id="middle" class="super body-detach-top">
+			<div id="astrologian-header-background" class="top-mid job-background">
+				<div id="top-link">
+					<a href="./job.html" id="back-link"><img src="backbutton.png" alt="back button">&nbsp;Top</a>
+				</div>
+				<div id="class-page-icon">
+					<img src="ast_title.png" alt="astrologian-icon">
+				</div>
+				<div id="class-page-banner" class="banner">
+					<img src="healer.png" alt="ranged-icon"> &nbsp; Healer
+				</div>
+				<div id="class-lore-text">
+				<textarea readonly>
+Ever has man coveted knowledge, and none more so than that of his fate. Thus did he labor to master the skill of foresight—but initial efforts bore little fruit. That is, until he looked to the stars above, which foretell the coming seasons, and learned to read the heavens.
+
+Though this gift is known today as astrology, the people of Sharalyan saw fit to not only read the stars, but to write their movements as well. By attuning their aetherial energies to that of constellations, they learned to wield magicks with heretofore unseen properties.
+
+Thus was astromancy born—a new form of magick which grants its users power over fate. Employing a star globe and divining deck in their miraculous deeds, fortune always smiles upon these masters of arcana.</textarea>
+				</div>
+			</div>
+			<div class="action-trait-table">
+				<div id="hbanner" class="banner at-header">
+					Actions & Traits
+				</div>
+				<div id="healer-job-action" class="job-header">
+					Job Actions
+				</div>
+				<div class="actions-table">
+					<table>
+						<tr>
+							<th class="healer-table-header" id="action-name-header">Action Name</th>
+							<th class="healer-table-header" id="acquired-header">Acquired</th>
+							<th class="healer-table-header" id="type-header">Type</th>
+							<th class="healer-table-header" id="cast-header">Cast</th>
+							<th class="healer-table-header" id="recast-header">Recast</th>
+							<th class="healer-table-header" id="cost-header">Cost</th>
+							<th class="healer-table-header" id="range-header">Range</th>
+							<th class="healer-table-header" id="effect-header">Effect</th>
+						</tr>
+						<tr>
+							<td>Malefic</td>
+							<td>Lv. 1</td>
+							<td>Spell</td>
+							<td>2s</td>
+							<td>2.5s</td>
+							<td>480 TP</td>
+							<td>25y</td>
+							<td>Deals unaspected damage with a potency of 150.</td>
+						</tr>
+						<tr>
+							<td>Benefic</td>
+							<td>Lv. 2</td>
+							<td>Spell</td>
+							<td>2s</td>
+							<td>2.5s</td>
+							<td>600 MP</td>
+							<td>30y</td>
+							<td>Restores target's HP.<br>
+Cure Potency: 400<br>
+Additional Effect: 15% chance next Benefic II will restore critical HP<br>
+Duration: 15s</td>
+						</tr>
+						<tr>
+							<td>Combust</td>
+							<td>Lv. 4</td>
+							<td>Spell</td>
+							<td>Instant</td>
+							<td>2.5s</td>
+							<td>480 MP</td>
+							<td>25y</td>
+							<td>Deals unaspected damage over time.<br>
+Potency: 40<br>
+Duration: 18s</td>
+						</tr>
+						<tr>
+							<td>Lightspeed</td>
+							<td>Lv. 6</td>
+							<td>Spell</td>
+							<td>2.5s</td>
+							<td>2.5s</td>
+							<td>1680 MP</td>
+							<td>15y</td>
+							<td>Reduces MP cost for spells by 50% and cast times for spells by 2.5 seconds.<br>
+Duration: 10s</td>
+						</tr>
+						<tr>
+							<td>Helios</td>
+							<td>Lv. 10</td>
+							<td>Spell</td>
+							<td>8s</td>
+							<td>2.5</td>
+							<td>3600MP</td>
+							<td>30y</td>
+							<td>Restores own HP and the HP of all nearby party members.<br>
+Cure Potency: 300</td>
+						</tr>
+						<tr>
+							<td>Ascend</td>
+							<td>Lv. 12</td>
+							<td>Ability</td>
+							<td>Instant</td>
+							<td>30s</td>
+							<td>-</td>
+							<td>5y</td>
+							<td>Resurrects target to a weakened state.</td>
+						</tr>
+						<tr>
+							<td>Essential Dignity</td>
+							<td>Lv. 15</td>
+							<td>Spell</td>
+							<td>2.5s</td>
+							<td>2.5s</td>
+							<td>600 MP</td>
+							<td>25y</td>
+							<td>Restores target's HP.<br>
+Cure Potency: 400<br>
+Potency increases the lower the target's HP.</td>
+						</tr>
+						<tr>
+							<td>Benefic II</td>
+							<td>Lv. 26</td>
+							<td>Spell</td>
+							<td>2.5</td>
+							<td>2.5s</td>
+							<td>960</td>
+							<td>30y</td>
+							<td>Restores target's HP.<br>
+Cure Potency: 650</td>
+						</tr>
+						<tr>
+							<td>Draw</td>
+							<td>Lv. 30</td>
+							<td>Spell</td>
+							<td>2s</td>
+							<td>2.5s</td>
+							<td>1200 TP</td>
+							<td>30y</td>
+							<td>Draw a card (arcanum) from your divining deck. Execute command again to use the arcanum drawn. Only one arcanum can be drawn at a time.<br>
+Duration: 30s<br>
+Recast timer cooldown will begin once the drawn arcanum is read, or the Draw timer expires.</td>
+						</tr>
+						<tr>
+							<td>Diurnal Sect</td>
+							<td>Lv. 30</td>
+							<td>Ability</td>
+							<td>Instant</td>
+							<td>150s</td>
+							<td>-</td>
+							<td>0y</td>
+							<td>Increases healing magic potency by 10% and adds Regen to certain actions. Also reduces enmity generation.<br>
+Cannot be used with Nocturnal Sect.<br>
+Shares a recast timer with Nocturnal Sect.<br>
+Effect cannot be removed during battle.<br>
+Effect ends upon reuse.</td>
+						</tr>
+						<tr>
+							<td>Undraw</td>
+							<td>Lv. 34</td>
+							<td>Spell</td>
+							<td>Instant</td>
+							<td>2.5s</td>
+							<td>840 MP</td>
+							<td>30y</td>
+							<td>Return the currently drawn arcanum back to the deck.</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div id="right" class="super">
+		</div>
+	</div>
+	</body>
+</html>
